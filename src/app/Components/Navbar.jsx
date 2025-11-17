@@ -9,7 +9,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <nav>
+      <nav className="hidden lg:block">
         <div className="container flex items-center justify-center gap-14 py-4">
           {/* --------logo----- */}
           <div className="logo">
