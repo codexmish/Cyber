@@ -14,7 +14,7 @@ const Banner = () => {
             <p className="text-[18px] text-secText font-medium">
               Created to change everything for the better. For everyone
             </p>
-            <button className="w-[191px] h-[56px] flex items-center justify-center text-base text-white hover:text-black hover:bg-white font-medium border border-white rounded-md">
+            <button className="w-[191px] h-[57px] flex items-center justify-center text-base text-white hover:text-black hover:bg-white font-medium border border-white rounded-md">
               Shop Now
             </button>
           </div>
