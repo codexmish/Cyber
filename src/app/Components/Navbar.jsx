@@ -10,10 +10,10 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="container flex items-center justify-between py-4">
+        <div className="container flex items-center justify-center gap-14 py-4">
           {/* --------logo----- */}
           <div className="logo">
-            <Image width={65} height={22} src="/Logo.png" />
+            <Image width={65} height={22} src="/images/Logo.png" alt="logo" />
           </div>
 
           {/* -------search------ */}
