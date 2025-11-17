@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
       <section id="banner" className="bg-[#211C24] px-4 lg:px-0">
-        <div className="container flex flex-wrap items-center justify-center">
+        <div className="container flex flex-wrap items-center justify-between">
           <div className="text w-full lg:w-[714] flex flex-col gap-6 mt-24 lg:mt-0 text-center lg:text-start items-center lg:items-start">
             <h2 className="text-2xl text-secText font-semibold">Pro.Beyond.</h2>
             <h1 className="text-7xl lg:text-8xl text-white font-thin">
