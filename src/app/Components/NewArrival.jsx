@@ -9,8 +9,6 @@ const NewArrival = async () => {
     }
   );
   const newProducts = await mydata.json();
-
-
   return (
     <>
       <div className="main">

@@ -8,9 +8,11 @@ import { navMenu } from "../../../constants";
 import { CiHeart, CiSearch } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";
+import Cart from "./Cart";
 
 const ResNav = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [showCart, setShowCart] = useState(false);
 
   return (
     <>
@@ -68,18 +70,25 @@ const ResNav = () => {
 
             {/* --------reg and login button---- */}
             <div className="buttons text-2xl text-black flex items-center justify-center gap-6 mt-10">
-              <button className="wishlist">
+              <button className="wishlist cursor-pointer">
                 <CiHeart />
               </button>
-              <button className="wishlist">
+              <button
+                className="cart cursor-pointer"
+                onClick={
+                  () => setShowCart(true)
+                }
+              >
                 <IoCartOutline />
               </button>
-              <Link href={"/"} className="wishlist">
+              <Link href={"/"} className="user cursor-pointer">
                 <LuUser />
               </Link>
             </div>
           </div>
         )}
+
+        {showCart && <Cart cartok={setShowCart} isopen={showCart} />}
       </div>
     </>
   );

@@ -1,12 +1,16 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { CiSearch, CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";
 import { navMenu } from "../../../constants";
 import Link from "next/link";
+import Cart from "./Cart";
 
 const Navbar = () => {
+  const [showCart, setShowCart] = useState(false);
+
   return (
     <>
       <nav className="hidden lg:block">
@@ -41,17 +45,19 @@ const Navbar = () => {
 
           {/* ......icons------- */}
           <div className="text-3xl flex items-center gap-6">
-            <button className="wishlist">
+            <button className="wishlist cursor-pointer">
               <CiHeart />
             </button>
-            <button className="wishlist">
+            <button className="cart cursor-pointer" onClick={()=>setShowCart(true)}>
               <IoCartOutline />
             </button>
-            <Link href={"/"} className="wishlist">
+            <Link href={"/"} className="user cursor-pointer">
               <LuUser />
             </Link>
           </div>
         </div>
+        {showCart && <Cart cartok={setShowCart} isopen={showCart} />}
+
       </nav>
     </>
   );
