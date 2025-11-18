@@ -10,7 +10,6 @@ const NewArrival = async () => {
   );
   const newProducts = await mydata.json();
 
-  console.log(newProducts);
 
   return (
     <>
