@@ -1,11 +1,11 @@
 import React from 'react'
-import ProductCard from './common/ProductCard'
+import NewArrival from './NewArrival'
 
 const HomeProducts = () => {
   return (
     <>
     <div className="container">
-        <ProductCard/>
+        <NewArrival/>
     </div>
     
     </>

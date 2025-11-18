@@ -5,7 +5,10 @@ const ProductCard = ({ img, titel, price }) => {
   return (
     <>
       <div className="w-[268px] h-[432px] bg-[#F6F6F6] flex flex-col items-center justify-center rounded-[9px]">
+        <div className="img">
+
         <Image width={160} height={160} src={img} />
+        </div>
         <div className="det mt-4 mb-6">
           <h3 className="text-base text-black font-medium text-center">
             {titel}
