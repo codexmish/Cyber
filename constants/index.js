@@ -24,32 +24,66 @@ const navMenu = [
   },
 ];
 
-
 const catagoryItems = [
   {
     icon: <SlScreenSmartphone />,
-    text: 'Phones'
+    text: "Phones",
   },
   {
     icon: <BsSmartwatch />,
-    text: 'Smart Watches'
+    text: "Smart Watches",
   },
   {
     icon: <CiCamera />,
-    text: 'Cameras'
+    text: "Cameras",
   },
   {
     icon: <CiHeadphones />,
-    text: 'Headphones'
+    text: "Headphones",
   },
   {
     icon: <HiOutlineComputerDesktop />,
-    text: 'Computers'
+    text: "Computers",
   },
   {
     icon: <SiYoutubegaming />,
-    text: 'Gaming'
+    text: "Gaming",
   },
-]
+];
 
-export { navMenu, catagoryItems };
+const showCaseData = [
+  {
+    image: "/images/popular.png",
+    title: "Popular Products",
+    description:
+      "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
+    bgColor: "bg-[#ffffff]",
+    textColor: "black",
+  },
+  {
+    image: "/images/ipad.png",
+    title: "Ipad Pro",
+    description:
+      "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
+    bgColor: "bg-[#F9F9F9]",
+    textColor: "black",
+  },
+  {
+    image: "/images/galaxy.png",
+    title: "Samsung Galaxy",
+    description:
+      "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
+    bgColor: "bg-[#EAEAEA]",
+    textColor: "black",
+  },
+  {
+    image: "/images/macbook.png",
+    title: "Macbook Pro",
+    description:
+      "iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.",
+    bgColor: "bg-[#2C2C2C]",
+    textColor: "white",
+  },
+];
+
+export { navMenu, catagoryItems, showCaseData };
