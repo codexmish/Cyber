@@ -3,6 +3,7 @@ import Banner from './Components/Banner'
 import ProBanners from './Components/ProBanners'
 import Catagory from './Components/Catagory'
 import HomeProducts from './Components/HomeProducts'
+import ShowProduct from './Components/ShowProduct'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
     {/* <ProBanners/> */}
     <Catagory/>
     <HomeProducts/>
+    <ShowProduct/>
     
     </>
   )
