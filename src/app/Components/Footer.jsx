@@ -9,9 +9,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black py-26">
+      <footer className="bg-black py-26 px-8 lg:px-0">
         <div className="container">
-          <div className="flex items-start justify-between">
+          <div className="flex flex-wrap items-start justify-between gap-8">
             {/* ----------dentity part---- */}
             <div className="iden">
               <div className="logo">
