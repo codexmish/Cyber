@@ -14,7 +14,7 @@ const BestSellers = async () => {
   return (
     <>
       <div className="main">
-        <div className="all flex flex-wrap items-center justify-between gap-10">
+        <div className="all flex flex-wrap items-center justify-between gap-4 lg:gap-10">
           {newProducts.products.slice(10, 16).map((item) => (
             <ProductCard
               key={item.id}

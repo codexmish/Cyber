@@ -26,7 +26,7 @@ const HomeProducts = () => {
     <>
       <section className="px-4 lg:px-0">
         <div className="container">
-          <div className="text-[18px] text-secText font-medium flex items-center active:text-black gap-4 lg:gap-8">
+          <div className="text-[18px] text-secText font-medium flex items-center active:text-black">
             <Tabs defaultActiveKey="1" items={items} tabBarGutter={32} />
           </div>
         </div>
