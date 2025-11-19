@@ -6,6 +6,7 @@ import HomeProducts from './Components/HomeProducts'
 import ShowProduct from './Components/ShowProduct'
 import ResShowProducts from './Components/ResShowProducts'
 import DiscountProduct from './Components/DiscountProduct'
+import SummerSale from './Components/SummerSale'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
     <ShowProduct/>
     <ResShowProducts/>
     <DiscountProduct/>
+    <SummerSale/>
     
     </>
   )
