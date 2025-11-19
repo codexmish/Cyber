@@ -1,4 +1,4 @@
-import { Footer } from "antd/es/layout/layout";
+import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import ResNav from "./Components/ResNav";
 import "./globals.css";
