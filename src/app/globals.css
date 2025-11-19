@@ -17,3 +17,32 @@
 }
 
 
+
+/* ---------Res show prosucts css */
+
+/* .resShow {
+  position: relative;
+}
+
+.resShow .slick-dots {
+  display: flex !important;
+  gap: 12px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.resShow .slick-dots li button {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #111827;
+  border-radius: 50%;
+}
+
+.resShow .slick-dots .slick-active button {
+  background: #111827;
+} */
+
+

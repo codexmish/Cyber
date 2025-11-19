@@ -7,7 +7,7 @@ const ShowProduct = () => {
 
   return (
     <>
-      <section className="py-14 px-4 lg:px-0">
+      <section className="py-14 px-4 lg:px-0 hidden lg:block">
         <div className="flex items-center flex-wrap lg:flex-nowrap">
           {showCaseData.map((item, id) => (
             <ShowcaseCard

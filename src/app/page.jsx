@@ -4,6 +4,7 @@ import ProBanners from './Components/ProBanners'
 import Catagory from './Components/Catagory'
 import HomeProducts from './Components/HomeProducts'
 import ShowProduct from './Components/ShowProduct'
+import ResShowProducts from './Components/ResShowProducts'
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
     <Catagory/>
     <HomeProducts/>
     <ShowProduct/>
+    <ResShowProducts/>
     
     </>
   )
