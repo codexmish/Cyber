@@ -10,30 +10,24 @@
   /* ----font---- */
   --font-inter: "Inter", sans-serif;
 
-
   /* ----color----- */
 
   --color-secText: #989898;
 }
 
-
-
 /* ---------Res show prosucts css */
 
-/* .resShow {
+.resshow {
   position: relative;
 }
 
-.resShow .slick-dots {
+.resshow .slick-dots {
   display: flex !important;
   gap: 12px;
   position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
-.resShow .slick-dots li button {
+.resshow .slick-dots li button {
   font-size: 0;
   width: 8px;
   height: 8px;
@@ -41,8 +35,14 @@
   border-radius: 50%;
 }
 
-.resShow .slick-dots .slick-active button {
+.resshow .slick-dots .slick-active button {
   background: #111827;
-} */
+}
 
-
+@media (max-width: 639.98px) {
+  .resshow .slick-dots {
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

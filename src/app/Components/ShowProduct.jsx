@@ -3,8 +3,6 @@ import ShowcaseCard from "./common/ShowcaseCard";
 import { showCaseData } from "../../../constants";
 
 const ShowProduct = () => {
-
-
   return (
     <>
       <section className="py-14 px-4 lg:px-0 hidden lg:block">

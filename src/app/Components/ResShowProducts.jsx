@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 const ResShowProducts = () => {
   const settings = {
     dots: true,
+    autoplay: true,
     infinite: true,
     arrows: false,
     speed: 500,
@@ -17,7 +18,7 @@ const ResShowProducts = () => {
 
   return (
     <>
-      <section className="resShow py-14 px-4 lg:px-0 lg:hidden">
+      <section className="resshow py-14 px-4 lg:px-0 lg:hidden">
         <div className="">
           <Slider {...settings}>
             {showCaseData.map((item, id) => (
