@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ProductCard = ({ img, titel, price }) => {
@@ -18,7 +19,7 @@ const ProductCard = ({ img, titel, price }) => {
           </h2>
         </div>
 
-        <button className="w-[139px] lg:w-[188px] h-[48px] rounded-[8px] bg-black text-sm text-white font-medium flex items-center justify-center">
+        <button className="w-[139px] lg:w-[188px] h-[48px] rounded-[8px] flex items-center justify-center bg-black text-sm text-white font-medium">
           Buy Now
         </button>
       </div>

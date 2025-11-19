@@ -4,6 +4,10 @@ import { CiCamera } from "react-icons/ci";
 import { CiHeadphones } from "react-icons/ci";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { SiYoutubegaming } from "react-icons/si";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 const navMenu = [
   {
@@ -86,4 +90,84 @@ const showCaseData = [
   },
 ];
 
-export { navMenu, catagoryItems, showCaseData };
+const footerServices = [
+  {
+    title: "Bonus program",
+    link: "/",
+  },
+  {
+    title: "Gift cards",
+    link: "/",
+  },
+  {
+    title: "Credit and payment",
+    link: "/",
+  },
+  {
+    title: "Service contracts",
+    link: "/",
+  },
+  {
+    title: "Non-cash account",
+    link: "/",
+  },
+  {
+    title: "Payment",
+    link: "/",
+  },
+];
+
+const footerAssistance = [
+  {
+    title: "Find an order",
+    link: "/",
+  },
+  {
+    title: "Terms of delivery",
+    link: "/",
+  },
+  {
+    title: "Exchange and return of goods",
+    link: "/",
+  },
+  {
+    title: "Guarantee",
+    link: "/",
+  },
+  {
+    title: "Frequently asked questions",
+    link: "/",
+  },
+  {
+    title: "Terms of use of the site",
+    link: "/",
+  },
+];
+
+const footerIcons = [
+  {
+    icons: <FaTwitter />,
+    link: "/",
+  },
+  {
+    icons: <FaFacebookF />,
+    link: "/",
+  },
+  {
+    icons: <FaTiktok />,
+    link: "/",
+  },
+  {
+    icons: <AiFillInstagram />,
+    link: "/",
+  }
+];
+
+export {
+  navMenu,
+  catagoryItems,
+  showCaseData,
+  footerServices,
+  footerAssistance,
+  footerIcons
+};

@@ -1,3 +1,4 @@
+import { Footer } from "antd/es/layout/layout";
 import Navbar from "./Components/Navbar";
 import ResNav from "./Components/ResNav";
 import "./globals.css";
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <ResNav/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
